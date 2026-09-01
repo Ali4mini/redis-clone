@@ -1,0 +1,24 @@
+# Build artifacts
+*.o
+redis-clone
+myprogram
+
+# Runtime / persistence data
+backup.db
+*.rdb
+*.aof
+
+# Debugging / profiling output
+core
+core.*
+vgcore.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
